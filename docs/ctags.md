@@ -23,7 +23,7 @@ Somehow we need to provide this "code context" to GPT
 when we ask it to accomplish a coding task. Specifically, we need to:
 
   - Help GPT understand the overall codebase, so that it
-can decifer the meaning of code with complex dependencies and generate
+can decipher the meaning of code with complex dependencies and generate
 new code that respects and utilizes existing abstractions.
   - Convey all of this "code context" to GPT in an
 efficient manner that fits within the 8k-token context window.
